@@ -1,6 +1,4 @@
 
-
-
 const menuBtn = document.querySelector('.menu-btn');
 const hamburger = document.querySelector('.menu-btn_burger');
 const nav = document.querySelector('.nav');
