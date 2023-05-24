@@ -12,3 +12,11 @@ $secondary-color: rgb(247, 104, 8);
   transition: all 0.5s ease-in-out;
 
 }
+
+@function set-text-color($color) {
+    @if (lightness($color) > 40%) {
+        @return rgb(0, 0, 0);
+    } @else {
+        @return rgb(255, 255, 255);
+    }
+}
