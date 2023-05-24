@@ -4,6 +4,26 @@
   padding: 0;
 }
 
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(29, 28, 28, 0.9), rgba(29, 28, 28, 0.3)), url("../vr/img/model-1.jpg") center top;
+  background-size: cover;
+}
+.home_name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.home_name--last {
+  color: rgb(247, 104, 8);
+  font-weight: 700;
+}
+
 body {
   background-color: rgb(29, 28, 28);
   color: rgb(255, 255, 255);
@@ -39,6 +59,7 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
   color: rgb(247, 104, 8);
